@@ -1,0 +1,78 @@
+.banner {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Portfolio styles */
+.portfolio-item {
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-item .card-body {
+    padding: 15px;
+}
+
+.nav-pills .nav-link.filter {
+    color: #333;
+    border-radius: 20px;
+    margin: 0 5px;
+    padding: 8px 20px;
+}
+
+.nav-pills .nav-link.filter.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Likes counter */
+.likes {
+    float: right;
+    color: #666;
+}
+
+.likes i {
+    color: #dc3545;
+    margin-right: 5px;
+}
+
+/* Footer specific styles */
+
+.footerBackground {
+    background: #414146;
+    color: #fff;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.learnMore {
+    background: black;
+    color: #ffea00;
+    padding: 5px 40px;
+    border-bottom: 3px solid #ffea00;
+}
+
+.list-unstyled li {
+    padding: 10px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .portfolio-section {
+        padding: 30px 0;
+    }
+
+    .nav-pills {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-pills .nav-link.filter {
+        margin: 5px;
+    }
+}
