@@ -1,0 +1,154 @@
+body {
+    font-family: "Century Gothic";
+}
+
+.logo {
+    float: left;
+    padding-top: 4px;
+}
+
+/* .menu {
+    float: right;
+    padding-top: 0%;
+} */
+
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #000;
+    display: block;
+    padding: 40px 15px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    margin: 13px 10px;
+    text-decoration: none;
+}
+.menu li.active > a,
+.menu li > a:hover {
+    color: #000;
+    background: #ff8100;
+    transition: all 0.3s ease;
+}
+
+#firstContent h3 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #424147;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#firstContent h5 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #424147;
+    font-weight: 600;
+    font-family: "Century Gothic";
+    margin-bottom: 15px;
+}
+
+.itemFirstContent {
+    column-gap: 30px;
+}
+
+.itemFirstContent .card-body {
+    background-color: #414146;
+    color: white;
+    font-family: "Century Gothic";
+    border: none;
+}
+
+.itemFirstContent .card {
+    border: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.imgContent2 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+}
+
+.itemFirstContent .card .p-3:hover {
+    background-color: lightgrey !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* .imageMasonry {
+    columns: 7;
+} */
+
+#carouselExample {
+    background-image: url(../images/banner.jpg);
+}
+
+.textContent h1 {
+    font-size: 4em;
+    background: #ffea00;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 55%;
+    font-weight: 600;
+    float: none;
+}
+
+.textContent h2 {
+    font-size: 4em;
+    background: #ffea00;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 70%;
+    font-weight: 600;
+    float: none;
+}
+
+.textContent p {
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-family: "Century Gothic";
+    background: #414146;
+    text-align: left;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+.buttonOrder {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    float: right;
+    margin-right: 70px;
+}
+
+.spacer {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    background: url(../images/bg-h2.png) repeat-x center;
+    margin-bottom: 40px;
+}
+
+.spacer span {
+    background: #424147;
+    color: #ffea00;
+    padding: 5px 40px;
+}
+
+#clientContent li {
+    display: inline-block;
+    padding: 10px;
+}
