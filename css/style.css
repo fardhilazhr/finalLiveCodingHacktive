@@ -12,6 +12,11 @@ body {
     padding-top: 0%;
 } */
 
+.banner {
+    background: url(../images/banner.jpg) no-repeat;
+    padding: 50px 0;
+}
+
 .menu ul li {
     display: inline-block;
 }
@@ -171,6 +176,37 @@ body {
 
 .list-unstyled li {
     padding: 10px;
+}
+
+/* Masonry grid styles */
+.masonry-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.masonry-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.masonry-item:hover {
+    transform: translateY(-5px);
+}
+
+.masonry-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Add shadow effect */
+.masonry-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* achievement */
